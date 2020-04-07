@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="f5d811eb-f4db-4ae2-a2ea-d6660df08249" name="de.citec.json" version="0" />
-    <engage id="48020ded-b0cc-4014-8fcf-0d2907e0cfdd" name="de.citec.json.gen.plaintext" />
   </languages>
   <imports />
   <registry>
@@ -137,7 +136,7 @@
           </node>
           <node concept="3wX4Wk" id="78xf10whbaM" role="3wX4Wa">
             <node concept="1ipnkW" id="78xf10whbdd" role="3wX4Wo">
-              <ref role="1ipnkX" node="3u3fcjnuWEE" resolve="myjsonFile" />
+              <ref role="1ipnkX" node="3u3fcjnuWEE" resolve="myjsonFile.json" />
             </node>
           </node>
         </node>
@@ -545,7 +544,7 @@
     </node>
   </node>
   <node concept="3wX4W1" id="3u3fcjnuWEE">
-    <property role="TrG5h" value="myjsonFile" />
+    <property role="TrG5h" value="myjsonFile.json" />
     <node concept="3wXsAc" id="3u3fcjnuWEF" role="3wX4W2">
       <node concept="1ttaij" id="3u3fcjnx0EG" role="3wX4Wd">
         <node concept="3wX4Wf" id="3u3fcjnx0EH" role="3wX4Wn">
@@ -669,6 +668,37 @@
                   </node>
                   <node concept="3wX4Wk" id="3u3fcjnxAwL" role="3wX4Wa">
                     <node concept="3wYFHA" id="3u3fcjnxAx0" role="3wX4Wo" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1ttaij" id="5aNytT4w24G" role="3wX4Wd">
+        <node concept="3wX4Wf" id="5aNytT4w24H" role="3wX4Wn">
+          <node concept="3wX4Wi" id="5aNytT4w24I" role="3wYPmq">
+            <property role="Xl_RC" value="t" />
+          </node>
+          <node concept="3wX4Wk" id="5aNytT4w24J" role="3wX4Wa">
+            <node concept="3wYWGZ" id="5aNytT4w25T" role="3wX4Wo">
+              <node concept="3wYWj4" id="5aNytT4w25W" role="3wYWGU">
+                <node concept="3wX4Wk" id="5aNytT4w25X" role="3wYWj5">
+                  <node concept="3wYWGZ" id="5aNytT4w262" role="3wX4Wo">
+                    <node concept="3wYWj4" id="5aNytT4w265" role="3wYWGU">
+                      <node concept="3wX4Wk" id="5aNytT4w266" role="3wYWj5">
+                        <node concept="3wX4Wq" id="5aNytT4w26b" role="3wX4Wo">
+                          <property role="3wYyIl" value="0.1" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3wYWj4" id="5aNytT4w26e" role="3wYWGU">
+                      <node concept="3wX4Wk" id="5aNytT4w26f" role="3wYWj5">
+                        <node concept="3wX4Wq" id="5aNytT4w26n" role="3wX4Wo">
+                          <property role="3wYyIl" value="0.1" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
